@@ -2,12 +2,13 @@
   "name": "nextstep",
   "version": "1.0.0",
   "description": "Plataforma de conexão de finalistas com estágios.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "license": "ISC"
 }
